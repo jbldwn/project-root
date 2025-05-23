@@ -7,7 +7,7 @@ class Articles extends BaseController
 {
     public function index(): string
     {
-        // return view('Articles/index.php');
+        // open DB to return all articles
         $db = db_connect();
 
         // new article model created to house pulled data
